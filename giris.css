@@ -1,0 +1,66 @@
+.girisFormu{
+    position: relative;
+    margin: 140px auto;
+    width: 28%;
+    height: 550px;
+    padding: 67px 6%;
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+    border-radius: 20px;
+}
+.bgLogo{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-top: 70px;
+}
+.bgLogo img{
+    width: 531px;
+    max-width: 100%;
+}
+.formicerik{
+    margin-top: 30%;
+    position: relative;
+    z-index: 1111111;
+}
+.formGonder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    margin: 0 auto;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #fe4f10;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 17px;
+}
+.formOrtalaGiris{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -30px;
+    padding-left: 0 !important;
+}
+#sifreRadio{
+    font-size: 12px;
+    padding-top: 3px;
+    color: grey;
+}
+.girisButonu{
+    width: 85.03px;
+    height: 27.68px;
+    border: 1px solid #302C2D;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    font-size: 17px;
+}
+.kayitButonu{
+    font-size: 16px;
+}
+.sifreUnut{
+    font-size: 14px;
+    text-align: center;
+    padding-top: 40px;
+}

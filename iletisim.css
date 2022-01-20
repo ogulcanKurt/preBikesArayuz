@@ -1,0 +1,112 @@
+
+.iletisimAlan{
+    margin-top: -100px;
+    background-color: #fff;
+    position: relative;
+    z-index: -1;
+}
+.iletisimBaslikBg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.iletisimBaslikBg span{
+    font-size: 150px !important;
+    color: #d6d6d6 !important;
+}
+.iletisimFormAlan{
+    margin-top: -70px;
+    padding-top: 50px;
+    background-color: #f7f6f4;
+}
+.textArea{
+    width: 94% !important;
+}
+.iletisimYolla{
+    margin-top: 10px;
+    text-align: center;
+}
+.iletisimGonderButon{
+    width: 350px;
+    color: #fff;
+    background-color: #FE4F10 !important;
+    border: none;
+    outline: none;
+}
+.iletisimiconAlan{
+    height: 200px;
+    background-color: #F7F6F4;
+}
+.iletisimicons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 100px;
+}
+.iconTelefon{
+    padding: 5px;
+    font-size: 25px;
+    border-radius: 20px;
+    background-color: #FE460C;
+    color: #fff;
+}
+.telefon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.iletisimForm{
+    margin-top: -60px !important;
+    margin: 0 auto;
+    padding: 23px;
+    width: 80%;
+    height: auto;
+    border-radius: 21px;
+    background-color: #fff;
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+}
+.telAciklama span{
+    margin-left: 7px;
+}
+.iletisimikon1{
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #cdc8c8;
+    height: 200px;
+    width: 80%;
+    border-radius: 11px;
+}
+
+.iletisimikon1 p{
+    margin-top: 15px;
+    font-size: 12px;
+}
+.ikonHizalaSaga{
+    margin-left: 3px;
+    margin-top: 80px;
+}
+.ikonAsagi{
+    margin-top: 90px;
+}
+.ikonBgAyarla{
+    margin-top: -60px !important;
+    margin: 0 auto;
+    padding: 23px;
+    width: 80%;
+    height: 730px !important;
+    border-radius: 21px;
+    background-color: #fff;
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+}
+.bgRenkAyar{
+    background: #f7f6f4;
+}
+.iletisikikonGorsel{
+    max-width: 100%;
+}
+.iletisimMesaj{
+    border: 2px solid #97858585;
+    height: 155px;
+    font-size: 12px;
+}

@@ -1,0 +1,158 @@
+.hesapBilgiBg{
+    position: relative;
+    margin: 37px auto;
+    width: 94%;
+    height: 780px;
+    max-height: 100%;
+    /* padding: 67px 11%; */
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+    border-radius: 20px;
+}
+.hesapSiderbar{
+    position: relative;
+    margin: 14px 50px;
+    width: 87%;
+    height: 700px;
+    max-height: 100%;
+    box-shadow: rgb(100 100 111 / 20%) 13px 12px 29px 3px;
+    border-radius: 20px;
+}
+.sidebarAktif{
+    font-size: 18px;
+    color: #eb5e0b !important;
+}
+.sidebarAktif a{
+    color: #eb5e0b !important;
+}
+.sidebarTop{
+    padding-top: 10px;
+}
+.oturumuKapat a{
+    color: #eb5e0b !important;
+    font-size: 12px;
+}
+.iletisimiconlari{
+    display: flex;
+}
+.iletisimiconlari i{
+    font-size: 25px;
+    color: #eb5e0b;
+}
+.iletisimiconlari span{
+    padding-left: 10px;
+}
+.iletisimiconlari p{
+    display: flex;
+}
+.iletisimiconlari .ikon1{
+    display: flex;
+    justify-content: center;
+    margin-left: 25px;
+}
+#altAciklama{
+    margin-top: -15px;
+    font-size: 10px;
+}
+.iletisimiconlari .aciklama{
+    margin-left: 5px;
+}
+#ustAciklama{
+    font-size: 14px;
+}
+#ikoninsta{
+    margin-left: 7px !important;
+}
+#mailAciklama{
+    font-size: 11px;
+}
+.alticonlar{
+    position: absolute;
+    bottom: 0;
+}
+.kullaniciBaslik h4{
+    margin-left: 60px;
+    padding-top: 20px;
+    font-weight: bold;
+}
+.iletisimDetaylari h5{
+    padding-top: 80px;
+    padding-left: 30px;
+}
+.iletisimDetaylari{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+.iletisimDetaylari i{
+    margin-right: 20px;
+    margin-bottom: 14px;
+    font-size: 23px;
+    font-weight: bold;
+}
+.dashboardMenu{
+    padding-top: 20px;
+}
+.dashboardMenu li a{
+    color: grey;
+}
+.siparisKart{
+    position: relative;
+    z-index: 1;
+    margin-top: 120px;
+    width: 90%;
+    height: 310px;
+    background-color: #f9f8f8;
+    margin-left: 30px;
+    box-shadow: rgb(100 100 111 / 20%) 13px 12px 29px 3px;
+    border-radius: 17px;
+}
+.siparisgecmisDetay{
+    padding-top: 22px;
+    padding-left: 30px;
+}
+.siparisDetaylari{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.asagiKaydir{
+    text-align: center;
+    margin-top: 22px;
+    color: #eb6211;
+}
+.goruntuleButon{
+    text-align: center;
+    margin-left: 30px;
+}
+.hesapButon{
+    border: none;
+    background-color: #eb5f0c;
+    color: #fff;
+    font-weight: 500;
+    height: 35px;
+    width: 110px;
+    border-radius: 7px;
+}
+.teslimatAlan{
+    margin-top: 60px;
+}
+.filigranSinirla{
+    position: relative;
+}
+.dasboardBg{
+    position: absolute;
+    z-index: -1;
+    top: 50px;
+    bottom: 0;
+    left: 60px;
+    right: 0;
+}
+.dasboardBg img{
+    width: 76%;
+}
+.mobilSiparis{
+    display: none;
+}
+.siparisGizleMobil{
+    display: block;
+}

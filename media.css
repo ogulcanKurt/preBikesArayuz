@@ -1,0 +1,911 @@
+@media screen and (max-width:900px) {
+    .canliGorsel {
+        display: none !important;
+    }
+
+    .cortinaGorselKonum {
+        display: none !important;
+    }
+
+    .headerMenu {
+        display: none;
+    }
+
+    .footer {
+        display: none;
+    }
+
+    .sliderGorsel {
+        margin-left: 0 !important;
+    }
+
+    .swiper-slide img {
+        margin-right: 0px;
+        width: 40% !important;
+    }
+
+    .gercekFiyat {
+        display: none;
+    }
+
+    .ustuCiziliFiyat {
+        display: none;
+    }
+
+    .aciklamaGucu {
+        font-size: 34px;
+    }
+
+    .mobilMenu {
+        display: block;
+    }
+
+    .logoLeft {
+        display: none !important;
+    }
+
+    .account {
+        display: none !important;
+    }
+
+    .searchButton {
+        display: none;
+    }
+
+    .input {
+        display: none;
+    }
+
+    .urunAdi {
+        display: none;
+    }
+
+    .anaSayfaHarita {
+        display: none;
+    }
+
+    .urunHaritasi {
+        display: none;
+    }
+
+    .onayGaranti {
+        display: none;
+    }
+
+    .logoAlan {
+        display: none;
+    }
+
+    .odemeAlani {
+        display: none;
+    }
+
+    .userSepet {
+        display: none;
+    }
+
+    .mobilUrun {
+        margin-top: 20px;
+        display: block;
+    }
+
+    .cortinaMobil {
+        font-size: 26px;
+        font-weight: bold;
+    }
+
+    .secenek1 .secenekEbatlar {
+        display: block;
+    }
+
+    body {
+        overflow: auto !important;
+    }
+
+    .fiyatAsamasi {
+        display: block;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .secenek1 .secenekEbatlar .ebatSecenekler {
+        margin-left: 0;
+    }
+
+    .ileriButon2 {
+        right: 0 !important;
+        display: none;
+    }
+
+    .geriButon2 {
+        left: 0 !important;
+        display: none;
+    }
+
+    .sagAlticon {
+        flex-direction: column;
+        top: -160px;
+        right: 10px;
+    }
+
+    .uruniconYazisi {
+        display: none;
+    }
+
+    .urunHakkindaicon {
+        width: 38.82px;
+    }
+
+    .urunKilavuz {
+        margin-left: 19px;
+    }
+
+    .urunVideo {
+        margin-top: 10px;
+    }
+
+    .ucBoyut {
+        margin-top: 10px;
+    }
+
+    .mobilAsama {
+        display: block;
+    }
+
+    .baslik1 {
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    .baslik1 button {
+        border: none;
+        border-radius: 5px;
+        background-color: #FF4300;
+        color: #fff;
+        height: 30px;
+        font-size: 15px;
+        font-weight: bold;
+        padding: 0 10px 0 10px;
+    }
+
+    .noAktif {
+        background-color: #ddd !important;
+        color: #000 !important;
+        font-weight: 300 !important;
+    }
+
+    .ustYaziAciklama {
+        margin-top: 8px !important;
+        font-size: 11px !important;
+    }
+
+    .secenek1 {
+        margin-top: 30px;
+        font-size: 16px !important;
+    }
+
+    .secenekEbatlar {
+        display: none !important;
+    }
+
+    .aktifSecenek {
+        border: none;
+        background-color: #ff4300;
+        color: #fff;
+        border-radius: 5px;
+        font-size: 15px;
+        padding: 10px;
+        width: 165px;
+        max-width: 100%;
+    }
+
+    .mobilSecenekler {
+        margin-top: 15px;
+        display: block !important;
+    }
+
+    .aktifDegil {
+        margin-left: 0px;
+        border: 1px solid grey;
+        background-color: #ffffff00;
+        color: #000;
+        border-radius: 5px;
+        font-size: 15px;
+        padding: 10px;
+        width: 168px;
+        max-width: 100%;
+    }
+
+    .aktifDegilOrtala {
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    .mobilButonlar {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .mobilAsamalar {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .ozellikBaslik h6 {
+        font-weight: bold;
+    }
+
+    .canliicon {
+        display: none !important;
+    }
+
+    .yeniFiyat {
+        font-size: 40px;
+    }
+
+    .sonrakiButon button {
+        width: 188.73PX;
+        border-radius: 4px;
+    }
+
+    .asamaGizle {
+        margin-top: 10px;
+        display: flex !important;
+    }
+
+    .renkBaslik h3 {
+        margin-top: 30px;
+        font-weight: bold;
+    }
+
+    .secenekBaslik h3 {
+        font-size: 30px;
+        margin-top: 40px;
+        font-weight: bold;
+    }
+
+    .hambMenu {
+        font-size: 25px;
+    }
+
+    .mobilLogo img {
+        padding-right: 0px;
+        width: 170px;
+        margin-left: 20px;
+    }
+
+    .mobilSearch {
+        font-size: 25px;
+        padding-right: 25px;
+    }
+
+    .mobilLogo {
+        margin-right: 35px;
+        width: 200px;
+    }
+
+    .navbar-light .navbar-toggler {
+        color: rgb(0 0 0 / 0%) !important;
+        border-color: rgb(0 0 0 / 0%) !important;
+    }
+
+    .mobilMenuSaga {
+        margin-left: 15px;
+    }
+
+    .headerMobil {
+        display: block;
+        position: relative;
+        z-index: 111111;
+    }
+
+    .dagBisikletSinirla {
+        display: none;
+    }
+
+    .dagBkAciklama {
+        display: none;
+    }
+
+    .dagBk1 {
+        max-width: 100%;
+    }
+
+    .dagBisikletiGorsel {
+        display: none !important;
+    }
+
+    .borderRight {
+        display: none;
+    }
+
+    .garantiGorsel {
+        display: none;
+    }
+
+    .canliChaticon {
+        display: none;
+    }
+
+    .mobilTanitim {
+        display: block;
+    }
+
+    .parallax {
+        display: none !important;
+    }
+
+    .headerSabitle {
+        display: none;
+    }
+
+    .dagBisikletiAciklama {
+        display: none;
+    }
+
+    .kategoriAdi {
+        padding: 10px;
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    .kategoriDesc {
+        margin-top: 30px;
+    }
+
+    .kategoriDesc p {
+        width: 140px;
+        margin-top: 20px;
+    }
+
+    .kategoriDesc h4 {
+        margin-top: -10px;
+        font-weight: bold;
+        font-size: 33px;
+    }
+
+    .mobilKategoriGorsel img {
+        width: 210px;
+    }
+
+    .kategori4alan {
+        display: none;
+    }
+
+    .bisikletKart {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #fff;
+        border-radius: 9px;
+        margin-top: 20px;
+    }
+
+    .bisikletKart img {
+        width: 260px;
+    }
+
+    .mobilKartlar {
+        display: block;
+    }
+
+    .dagFiyat {
+        display: block !important;
+        justify-content: flex-start !important;
+    }
+
+    .mblBtn {
+        width: 53.41px;
+        height: 40.35px;
+        border-radius: 6px;
+        color: #000;
+        background-color: #DDDDDD;
+        border: none;
+        outline: none;
+    }
+
+    .dagBaslik h3 {
+        font-weight: bold !important;
+    }
+
+    #mobilDan {
+        font-size: 10px;
+        color: #000;
+    }
+
+    .mobilButon {
+        text-align: center;
+    }
+
+    .asagiKaydirMobil {
+        margin-top: 20px;
+    }
+
+    .alanGolge {
+        box-shadow: 6px 6px 20px 0px #7a7a7a;
+    }
+
+    .girisFormu {
+        width: 100% !important;
+        box-shadow: rgb(100 100 111 / 0%) 0px 7px 29px 0px !important;
+    }
+
+    .kayitFormu {
+        width: 100% !important;
+        box-shadow: rgb(100 100 111 / 0%) 0px 7px 29px 0px !important;
+    }
+
+    .kayitFormu2 {
+        width: 100% !important;
+        box-shadow: rgb(100 100 111 / 0%) 0px 7px 29px 0px !important;
+    }
+
+    .oncekiSayfa {
+        display: none !important;
+    }
+
+    .asamaSayi {
+        display: none !important;
+    }
+
+    .iletisimBg {
+        display: none !important;
+    }
+
+    .iletisimGonderButon {
+        width: 100% !important;
+    }
+
+    .iletisimiconAlan {
+        display: none !important;
+    }
+
+    .gorselimg {
+        max-width: 100%;
+    }
+
+    .okYon {
+        display: none !important;
+    }
+
+    .alanSinir {
+        display: block !important;
+    }
+
+    .guclu {
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .estetik {
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .solAciklamaSinirla {
+        max-width: 100%;
+    }
+
+    .daha {
+        font-size: 30px;
+    }
+
+    .solYazi {
+        transform: scale(1.3) rotate(0deg);
+        position: absolute;
+        left: 116px;
+        top: 0;
+    }
+
+    .dagBlack {
+        padding-left: 0;
+        margin-top: 90px;
+        max-width: 100%;
+    }
+
+    .sagYazi {
+        transform: scale(1.3) rotate(360deg);
+        position: absolute;
+        right: 220px;
+        top: 0;
+    }
+
+    .fullbody {
+        font-size: 33px !important;
+    }
+
+    .sagAciklama span {
+        text-align: center !important;
+    }
+
+    .blackArkaPlan {
+        margin-top: 0;
+    }
+
+    .cubeHeader {
+        display: none;
+    }
+
+    .teslim3-5gun,
+    .teslimAl,
+    .teslimTarihVar,
+    .stoktaYok {
+        display: none !important;
+    }
+
+    .renkSecenekleri {
+        display: none !important;
+    }
+
+    .sepetBgGenis {
+        display: none !important;
+    }
+
+    .gozatButon {
+        width: 40px !important;
+        height: 37.55px !important;
+        font-size: 13.3px !important;
+        color: #000 !important;
+        background-color: rgb(242 242 241 / 0%) !important;
+        border: none !important;
+        border-radius: 7px !important;
+        font-weight: 100 !important;
+    }
+
+    .sepeteEkleButon {
+        background-color: rgb(242 242 241 / 0%) !important;
+        font-weight: 100 !important;
+    }
+
+    .markaAciklama {
+        font-size: 13px !important;
+    }
+
+    .modelAciklama {
+        font-size: 13px !important;
+    }
+
+    .sepetBg {
+        height: 300px !important;
+        box-shadow: 0px 1px 10px 0px #746b6b00 !important;
+    }
+
+    .saleFiyat {
+        bottom: 100px !important;
+        right: 0px !important;
+    }
+
+    .saleFiyat img {
+        width: 80px !important;
+        max-width: 100% !important;
+    }
+    
+    .saleFiyat span {
+        left: 25px !important;
+        font-size: 13px !important;
+    }
+    
+    .sale h5 {
+        font-size: 16px !important;
+    }
+    
+    .incele {
+        margin-top: -30px !important;
+    }
+    
+    .bisikletModelAciklama {
+        margin-top: 20px !important;
+    }
+    
+    .cube_Kategori {
+        display: none !important;
+    }
+    
+    .headerCube {
+        display: none !important;
+    }
+    .kaydirSil{
+        display: none !important;
+    }
+    
+    .saleFiyat .swiper-button-next {
+        display: none !important;
+    }
+    .cubeBg{
+        height: 280px !important;
+    }
+    .gorselCube{
+        display: block !important;
+        margin-left: -5%;
+    }
+    .gorselCube img{
+        width: 184px !important;
+    }
+    .cubeKisaAciklama{
+        width: 229px;
+        position: absolute;
+        top: 70px;
+        right: 0;
+    }
+    .cubeAciklamalar{
+        position: relative;
+    }
+    .cubeKisaAciklama2{
+        display: none !important;
+    }
+    .cubeBg{
+        background-color: #f8f9fa !important;
+    }
+    .cubeBaslik h3{
+        font-weight: bold;
+        font-size: 37px;
+    }
+    .detaySlider img{
+        margin-right: 60px !important;
+        width: 90% !important;
+    }
+    .kosullarAlan {
+        margin-top: -20px !important;
+    }
+    .kosulBaslikBg span{
+        font-size: 60px !important;
+        color: #d6d6d6 !important;
+    }
+    .kosuliletisimGizle{
+        display: none;
+    }
+    .iletisimForm{
+        margin-top: 20px !important;
+    }
+    .hesapSiderbar{
+        display: none;
+    }
+    .hesapBilgiBg{
+        box-shadow: rgb(100 100 111 / 0%) 0px 7px 29px 0px !important;
+    }
+    .mobilSiparis{
+        display: block !important;
+    }
+    .siparisGizleMobil{
+        display: none !important;
+    }
+    .faturaDetayDuzenle{
+        padding: 0 0 !important;
+    }
+    .dasboardBg{
+        display: none;
+    }
+    .mobilKategori{
+        display: none;
+    }
+    .markaHizala{
+        display: none !important;
+    }
+    .teslim35Gün{
+        width: 119px;
+        font-size: 10px;
+        height: 25px;
+    }
+    .mobilsepetBg{
+        height: 360px !important;
+    }
+    .mobilkaydetIkon i{
+        font-size: 18px !important;
+    }
+    .stok_bilgisi{
+        top: 5px;
+        left: 5px;
+    }
+    .sepetGorsel{
+        width: 125.3px;
+    }
+    .mobilSepetAciklama{
+        margin-left: 5px !important ;
+    }
+    .sepetFiyat{
+        margin-left: 10px;
+        font-size: 26px;
+    }
+    .eski_Fiyat{
+        font-size: 13px;
+    }
+    .sepetAdet{
+        left: 20px !important;
+    }
+    .mobilGizle{
+        display: none;
+    }
+    .sepetButon{
+        width: 64px;
+        height: 35.3px;
+    }
+    .gizliKategoriGorsel{
+        display: block;
+        text-align: center;
+    }
+    .gorsel{
+        position: relative;
+    }
+    .gorsel span{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        color: #fff;
+        font-weight: bold;
+        font-size: 25px;
+    }
+
+    
+
+    
+
+}
+
+
+
+
+
+
+
+
+
+/* 1600 x 900 Media Başlangıç*/
+
+@media screen and (min-width:1200px) and (max-width:1600px) {
+
+
+    .elipsBg {
+        right: -21% !important;
+    }
+
+    .sepetBg {
+        width: 350.8px !important;
+        border-radius: 16px;
+    }
+
+    .sepetAlanYukari2 {
+        margin-top: 35px
+    }
+
+    .urunKategori {
+        margin-top: 17px;
+    }
+
+    .sepetAdet {
+        left: 70px;
+    }
+
+    .chatKutuGorsel {
+        margin-left: 30px;
+    }
+
+    .bisikletArkaPlan {
+        margin-left: 90px;
+        max-width: 96%;
+    }
+
+    .firsatYazisi {
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    .firsatKalanGun {
+        font-size: 15px;
+    }
+
+    /* Bisiklet Tanıtım */
+    .okYon {
+        width: 268px;
+    }
+
+    .dagBlack {
+        width: 980px;
+    }
+
+    .solAciklamaSinirla span {
+        width: 321px;
+    }
+
+    /* Bisiklet Tanıtım Bitiş */
+
+    /* odemeBilgisi.php Bailangıç */
+    .asagiSinirla {
+        margin-top: 20px !important;
+    }
+
+    .eskiFiyat {
+        font-size: 23px !important;
+    }
+
+    .odemeFormu {
+        margin: 0px 190px 0;
+    }
+
+    /* odemeBilgisi.php Bitiş */
+
+    /* odemePlani.php Başlangıç */
+    .sigortaYazisi {
+        width: 470px;
+        max-width: 100%;
+    }
+
+    .yeniFiyat {
+        font-size: 38.85px;
+    }
+
+    .kaydirmaCubugu {
+        width: 95% !important;
+    }
+
+    /* odemePlani.php Bitiş */
+
+    /* odemeBilgisi.php Başlangıç */
+    .garantiForm {
+        bottom: 0;
+    }
+
+    .dagBk2 {
+        width: 540px !important;
+    }
+
+    /* odemeBilgisi.php Bitiş */
+
+    /* cube.php Başlangıç */
+    .sepetAlanGenis {
+        width: 590px !important;
+    }
+
+    .sepetBg2 {
+        width: 290.8px !important;
+    }
+
+    .teslim3-5gun {
+        border-bottom-left-radius: 16px !important;
+        border-bottom-right-radius: 16px !important;
+    }
+
+    .teslimTarihVar {
+        border-bottom-left-radius: 16px !important;
+        border-bottom-right-radius: 16px !important;
+    }
+
+    .stoktaYok {
+        border-bottom-left-radius: 16px !important;
+        border-bottom-right-radius: 16px !important;
+    }
+
+    .teslim3-5gunGenis {
+        border-bottom-left-radius: 16px !important;
+        border-bottom-right-radius: 16px !important;
+    }
+
+    .sepetBgGenis {
+        border-radius: 16px;
+    }
+
+    /* cube.php Bitiş */
+
+    /* urunDetay.php Başlangıçc */
+    .icerik {
+        padding-top: 22px !important;
+    }
+
+    .secenek1 .secenekEbatlar li a {
+        font-size: 11.17px !important;
+    }
+
+    .ileriButon2 {
+        right: 4% !important;
+    }
+
+    .geriButon2 {
+        left: 1% !important;
+    }
+
+    /* urunDetay.php Bitiş */
+
+
+
+}
+
+/* 1600 x 900 Media Bitiş*/

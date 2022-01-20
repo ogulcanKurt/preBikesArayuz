@@ -1,0 +1,509 @@
+body{
+    position: relative;
+    overflow-x: hidden;
+}
+#yukariCik{
+    background-color: #fff;
+}
+.cubeSinirla{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.cubeBg{
+    height: 180px;
+    background-color: #fff;
+    box-shadow: 1px 13px 20px 0px rgb(0 0 0 / 17%);
+}
+.cubeAciklamalar{
+    padding-top: 20px;
+    margin-left: 23px;
+}
+.cubeKisaAciklama p{
+    font-size: 18px;
+    font-weight: 100;
+}
+.cubeKisaAciklama2 p{
+    font-weight: 100;
+    margin-top: -14px;
+}
+.menuList{
+    display: flex;
+    align-items: center;
+}
+.cubeHeader{
+    margin-top: 24px;
+}
+.cubeMenu{
+    font-size: 17px;
+}
+.cubeMenu{
+    font-size: 17px;
+}
+.iconAsagi{
+    margin-left: 4px;
+}
+.menuList li a{
+    padding: 50px;
+}
+.swiper {
+    width: 315px;
+    max-width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+text-align: center;
+font-size: 18px;
+background: rgba(255, 255, 255, 0);
+
+display: -webkit-box;
+display: -ms-flexbox;
+display: -webkit-flex;
+display: flex;
+-webkit-box-pack: center;
+-ms-flex-pack: center;
+-webkit-justify-content: center;
+justify-content: center;
+-webkit-box-align: center;
+-ms-flex-align: center;
+-webkit-align-items: center;
+align-items: center;
+}
+.kaydirmaBisiklet img{
+    width: 236px;
+    max-width: 100%;
+}
+.swiper-button-next:after, .swiper-button-prev:after{
+    font-size: 20px !important;
+    color: #000;
+}
+.sale{
+    margin-right: inherit;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.sale h5{
+    font-weight: 100;
+    font-size: 18px;
+}
+.sale .indirimFiyat{
+    margin-top: -10px;
+    font-weight: 400;
+}
+.bisikletModelAciklama{
+     margin-bottom: 30px; 
+}
+.markaAciklama{
+    margin-top: 6px;
+    font-size: 22px;
+    top: 5px;
+}
+.saleFiyat{
+    position: absolute;
+    top: 10px;
+    right: -8px;
+}
+.saleFiyat span{
+    position: absolute;
+    top: 5px;
+    left: 30px;
+    font-size: 20px;
+}
+.modelAciklama{
+    margin-top: -13px;
+    font-size: 15px;
+    font-weight: 100;
+}
+.renkSecenekleri{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gri{
+    width: 50px;
+    height: 6px;
+    border-radius: 20px;
+    background-color: #ACAA9F;
+}
+.kirmizi{
+    width: 50px;
+    height: 6px;
+    border-radius: 20px;
+    background-color: #FE460C;
+    margin-left: 5px;
+}
+.mavi{
+    width: 50px;
+    height: 6px;
+    border-radius: 20px;
+    background-color: #356DB0;
+    margin-left: 5px;
+}
+.siyah{
+    width: 50px;
+    height: 6px;
+    border-radius: 20px;
+    background-color: #000;
+    margin-left: 5px;
+}
+.koyuYesil{
+    width: 50px;
+    height: 15px;
+    border-radius: 20px;
+    background-color: #625B26; 
+}
+.incele{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.gozatButon{
+    width: 85px;
+    height: 37.55px;
+    font-size: 14.3px;
+    color: #000;
+    background-color: rgb(242 242 241);
+    border: none;
+    border-radius: 7px;
+    font-weight: bold;
+
+}
+.gozatButon:hover{
+    color: #fff;
+    background-color: #329F2C;
+    transition: 0.3s;
+}
+.sepeteEkleButon{
+    margin-left: 19px;
+    width: 85px; 
+    height: 37.55px;
+    font-size: 13.3px;
+    color: #000;
+    background-color: rgb(242 242 241);
+    border: none;
+    border-radius: 7px;
+    font-weight: bold;
+}
+.sepeteEkleButon:hover{
+    background-color: #FE460C;
+    color: #fff;
+    transition: 0.3s;
+}
+.teslimAl p{
+    font-size: 19px;
+    color: #FE460C;
+}
+.teslim3-5gun{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    background-color: #329F2C;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+}
+.teslim3-5gun p{
+    margin-top: 9px;
+    font-size: 14px;
+    font-weight: 100;
+    color: #fff;
+}
+.teslimTarihVar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    background-color: #000000;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+}
+.teslimTarihVar p{
+    margin-top: 9px;
+    font-size: 14px;
+    font-weight: 100;
+    color: #fff;
+}
+.stoktaYok{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    background-color: #ff0000;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius:18px;
+}
+.stoktaYok p{
+    margin-top: 9px;
+    font-size: 14px;
+    font-weight: 100;
+    color: #fff;
+}
+.bisiklet5Konum{
+    width: 200px !important;
+    margin-bottom: 9px;
+}
+.ayniSira{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+.ayniSira2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    width: 60%;
+    max-width: 60%;
+}
+.sepetAlanGenis{
+    width: 700px;
+}
+.sepetBgGenis{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 100%;
+    height: 860px;
+    border-radius: 36px;
+    background-color: #fff;
+    box-shadow: 0px 1px 8px 1px #746b6b63;
+}
+.satir2sinirla{
+    position: relative;
+}
+.ayniSira3{
+    position: absolute;
+    right: 22px;
+    bottom: 0;
+}
+.saleGenis{
+    margin-right: inherit;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.saleGenis h5{
+    font-weight: 100;
+    font-size: 25px;
+}
+.saleGenis .indirimFiyat{
+    margin-top: -10px;
+}
+.kaydirmaBisikletGenis img{
+    width: 500px;
+}
+.saleFiyatGenis{
+    position: absolute;
+    top: 10px;
+    right: -8px;
+}
+.saleFiyatGenis span{
+    position: absolute;
+    top: 20px;
+    left: 85px;
+    font-size: 33px;
+}
+.bisikletModelAciklamaGenis{
+    margin-bottom: 30px; 
+}
+.markaAciklamaGenis{
+    margin-top: 6px;
+    font-size: 35px;
+    top: 5px;
+}
+.inceleGenis{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.gozatButonGenis{
+   width: 155px; 
+   height: 37.55px;
+   font-size: 24.3px;
+   color: #000;
+   background-color: rgba(255, 255, 255, 0);
+   border: none;
+
+}
+.gozatButonGenis:hover{
+    color: #fff;
+    background-color: #329F2C;
+}
+.sepeteEkleButonGenis{
+    margin-left: 19px;
+    width: 155px; 
+    height: 37.55px;
+    font-size: 24.3px;
+    color: #000;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+}
+.sepeteEkleButonGenis:hover{
+    background-color: #FE460C;
+    color: #fff;
+}
+.teslim3-5gunGenis{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    background-color: #329F2C;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+}
+.teslim3-5gunGenis p{
+    margin-top: 9px;
+    font-size: 14px;
+    font-weight: 100;
+    color: #fff;
+}
+.saydamArkaPlan{
+    width: 100%;
+    height: 605px;
+    background-color: #f8f8f8ad;
+    position: absolute;
+    bottom: 662px;
+    z-index: 1;
+}
+.opacity-fade * {
+    opacity: 0.25;
+}
+.opacity-fade__first {
+    opacity: 1;
+}
+.ikonlariOneCikar{
+    position: relative;
+    z-index: 1;
+}
+.headerCube{
+    width: 100%;
+    background: #fff;
+    margin-top: -20px;
+    height: 100px;
+    z-index: 11;
+}
+.buyukGenislik{
+    width: 595px !important;
+}
+.all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 13px;
+    background-color: #fff;
+    border-radius: 5px;
+    width: 234px;
+    max-width: 100%;
+    margin-top: 20px;
+    height: 50px;
+    margin-left: 40px;
+    box-shadow: 0px 1px 10px 0px #746b6b63 !important;
+}
+.saga_kaydir{
+    margin-left: 20px;
+}
+.eBikes{
+    width: 55px;
+}
+.all span{
+    margin-left: 5px;
+    font-weight: bold;
+}
+._aktif{
+    background-color: #eb5e0b;
+    color: #fff;
+    box-shadow: 0px 1px 10px 0px #eb5e0b !important;
+}
+.telefonUlas{
+    margin-top: 10px;
+}
+.telefonUlas button{
+    border: none;
+    background-color: #329F2C;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    width: 170px;
+    max-width: 100%;
+}
+.callCenter{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ccServisi{
+    margin-top: 15px;
+}
+.ccServisi span{
+    font-size: 20px;
+    font-weight: bold;
+}
+.servisAciklama p{
+    text-align: center;
+}
+.madde{
+    font-size: 30px;
+    font-weight: bold;
+    color: #329f2c;
+}
+.garanti{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.maddeAciklama p{
+    text-align: center;
+}
+.maddeler{
+    margin-top: 10px;
+}
+.tumuButon_ button{
+    border: none;
+    background-color: #eb5e0b;
+    color: #fff;
+    height: 40px;
+    width: 130px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+._kategoriUrun{
+    width: 100%;
+    text-align: center;
+    height: auto;
+    color: #000;
+    padding: 11px;
+}
+.all:hover{
+    background-color: #eb5e0b;
+    color: #fff !important;
+    box-shadow: 0px 1px 10px 0px #eb5e0b !important;
+    transition: 1s;
+}
+
+.all a:hover{
+    color: #fff !important;
+}
+.gorselCube{
+    display: none;
+}
+
+
+
+
+
+
+

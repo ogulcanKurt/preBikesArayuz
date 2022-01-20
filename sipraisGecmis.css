@@ -1,0 +1,11 @@
+.siparisGecmis2{
+    position: relative;
+    z-index: 1;
+    margin-top: 60px;
+    width: 90%;
+    height: 310px;
+    background-color: #f9f8f8;
+    margin-left: 30px;
+    box-shadow: rgb(100 100 111 / 20%) 13px 12px 29px 3px;
+    border-radius: 17px;
+}

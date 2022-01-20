@@ -1,0 +1,28 @@
+.kosullarAlan{
+    margin-top: -60px;
+    padding-top: 50px;
+    background-color: #f7f6f4;
+}
+.kosulBaslik h2{
+    font-weight: bold;
+}
+.kosulAciklama{
+    margin-top: 30px;
+}
+.kosulAciklama p{
+    font-size: 15px;
+    color: grey;
+}
+.kosulBg{
+    height: auto !important;
+}
+.kosulBaslikBg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.kosulBaslikBg span{
+    font-size: 150px;
+    color: #d6d6d6;
+}

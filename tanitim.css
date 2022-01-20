@@ -1,0 +1,391 @@
+.gorsel{
+    text-align: center;
+}
+.gorselimg{
+    width: 1350px;
+}
+.garantiicon{
+    position: relative;
+}
+.iconGorsel{
+    position: absolute;
+    bottom: 0;
+}
+.bisikletTanitimiconlari{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bisikletAlani{
+    position: relative;
+}
+.bisikletTanitimiconlari img{
+    width: 42.44px !important;
+}
+.kitapicon{
+    /* width: 45px !important; */
+}
+.iconucBoyut{
+    /* margin-right: 13px; */
+}
+.iconOynatma{
+    /* width: 40px !important;
+    margin-right: 25px; */
+}
+.iconlariSinirla{
+    position: relative;
+}
+.canliChaticon{
+    position: fixed;
+    bottom: 10px;
+}
+.canliChaticon i{
+    font-size: 40px;
+}
+.arkaPlanSiyah{
+    margin-top: -60px;
+}
+.blackBg1{
+    width: 100%;
+}
+.blackArkaPlan{
+    margin-top: -100px;
+    width: 100%;
+    height: auto;
+    background-color: #000;
+}
+.blackArkaPlan .dagBisiklet{
+    width: 657px;
+}
+.blackArkaPlan .aciklama{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aciklama1,.aciklama2{
+    display: flex;
+    flex-direction: column;
+}
+.blackArkaPlan .aciklama .aciklama1,.aciklama2 span{
+    color: #fff;
+    font-size: 50px;
+}
+#daha{
+    font-size: 60px;
+}
+#guclu{
+    margin-top: -40px;
+    font-size: 100px;
+    font-weight: 100;
+}
+#estetik{
+    margin-top: -40px;
+    font-size: 100px;
+    font-weight: 500;
+}
+.alanOrtala{
+    margin-left: -100px;
+}
+.aciklama1{
+    margin-right: 200px;
+}
+.tersYazi{
+    transform: rotate(270deg);
+    color: #fff;
+    width: 557px;
+}
+.tersYazi span{
+    font-size: 80px;
+    font-weight: bold;
+    color:rgb(103,103,103);
+}
+.mtBisiklet{
+    margin-top: -100px;
+    margin-left: 290px;
+}
+.dagAciklama1{
+    display: flex;
+}
+.mBikesAciklama1{
+    margin-top: -60px;
+    margin-left: 20px;
+    width: 460px;
+    color: #fff;
+}
+.mBikesAciklama2{
+    display: flex;
+    margin-top: 33px;
+    margin-left: 20px;
+    width: 460px;
+    color: #fff;
+}
+.dagAciklama2{
+    display: flex;
+    justify-content: end;
+    margin-right: 42px;
+}
+.gidon img{
+    width: 500px;
+}
+.okYonu2{
+    margin-top: 20px;
+}
+.okYonu2 img{
+    margin-top: 20px;
+    margin-right: -190px;
+}
+.gidonTers{
+    margin-top: 290px;
+    margin-right: 60px;
+    width: 0;
+    height: 0;
+    transform: rotate(270deg);
+    color: #fff;
+}
+.gidonTers span{
+    font-size: 80px;
+    font-weight: bold;
+    color:rgb(103,103,103);
+}
+.dagAciklama3{
+    position: relative;
+    margin-top: 150px;
+    display: flex;
+}
+.amortisorimg{
+    width: 570px !important;
+}
+.amortisor{
+    transform: rotate(270deg);
+    color: #fff;
+}
+.amortisor span{
+    position: absolute;
+    left: 300px;
+    right: 0;
+    bottom: 230px;
+    font-size: 80px;
+    font-weight: bold;
+    color:rgb(103,103,103);
+}
+.dagAciklama4{
+    margin-top: 150px;
+    margin-right: 40px;
+    display: flex;
+    justify-content: end;
+}
+.okYonu4{
+    margin-top: 40px;
+}
+.dagAciklama5{
+    position: relative;
+    margin-top: 150px;
+    display: flex;
+}
+.sele span{
+    position: absolute;
+    left: 300px;
+    right: 0;
+    bottom: 162px;
+    font-size: 80px;
+    font-weight: bold;
+    color: rgb(103,103,103);
+}
+.dagAciklama6{
+    margin-top: 150px;
+    margin-right: 40px;
+    display: flex;
+    justify-content: end;
+}
+.zincir{
+    margin-top: 290px;
+    margin-right: 60px;
+    width: 0;
+    height: 0;
+    transform: rotate(270deg);
+    color: #fff;
+}
+.zincir span{
+    font-size: 80px;
+    font-weight: bold;
+    color:rgb(103,103,103);
+}
+.dagAciklama7{
+    position: relative;
+    margin-top: 150px;
+    display: flex;
+}
+.ucBoyutYazi{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+.kitapYazi{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-top: 10px;
+}
+.videoYazi{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-top: 10px;
+}
+.bisikletTanitimiconlari{
+
+}
+.iconlarSinirla{
+    position: relative;
+}
+.iconSpan{
+    margin-left: 10px;
+    font-size: 16px;
+    width: 70px;
+}
+.garantiGorselBisikletTanitim{
+    position: absolute;
+    bottom: 0px;
+    left: 10px;
+}
+#deneme{
+    color: #fff;
+}
+.daha{
+    font-size: 100px;
+    color: #fff;
+}
+.guclu{
+    font-size: 125px;
+    color: #fff;
+    letter-spacing: 10px;
+}
+.estetik{
+    font-size: 125px;
+    color: #fff;
+    letter-spacing: 10px;
+}
+.solYazi{
+    transform: scale(1.3) rotate(270deg);
+    position: absolute;
+    left: -99px;
+    top: 320px;
+}
+.sagYazi{
+    transform: scale(1.3) rotate(270deg);
+    position: absolute;
+    right: 0px;
+    top: 180px;
+}
+.fullbody{
+    font-size: 66px;
+    font-weight: bold;
+    color: #fff;
+    background: radial-gradient(circle farthest-side at center center, #707070 26%, #565250 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.solaSinirlafullBody{
+    position: relative;
+}
+.dagBlack{
+    padding-left: 80px;
+    max-width: 100%;
+}
+.tanitiminput{
+    background-color: #fff !important;
+    border: none !important;
+}
+.yukaridanAsagi{
+    margin-top: 40px;
+}
+.sagAciklama{
+    display: flex;
+    justify-content: center;
+    margin-top: 8em;
+}
+.sagAciklama span{
+    font-size: 16px;
+    color: #fff;
+}
+.okYon{
+    width: 430px;
+    position: relative;
+}
+.solAciklamaSinirla{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 110px;
+    margin-right: -160px;
+}
+.solAciklamaSinirla span{
+    width: 475px;
+}
+.alanSinir{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 100px;
+}
+.gidon1{
+    width: 820px;
+    max-width: 100% !important;
+}
+.solYaziYukari{
+    top: 220px !important;
+}
+.okYonAyarla{
+    width: 430px;
+    position: relative;
+    margin-left: -80px;
+}
+.solAciklamaSinirla2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 229px;
+    margin-right: -160px;
+}
+.solAciklamaSinirla3{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 110px;
+    margin-right: -70px;
+}
+.amort{
+    width: 918px;
+    max-width: 100% !important;
+}
+.solYaziSele{
+    transform: scale(1.3) rotate(270deg);
+    position: absolute;
+    left: 60px;
+    top: 300px !important;
+}
+.sele{
+    width: 800px;
+    max-width: 100%;
+}
+.amort3{
+    width: 900px;
+    max-width: 100% !important;
+}
+.solAciklamaAmort{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 348px;
+    margin-right: -160px;
+}
+.headersifir{
+    left: 0!important;
+}
+.logoTanitim{
+    padding-top: 40px;
+    width: 196.61px;
+    padding-left: 20px;
+}

@@ -1,0 +1,142 @@
+body{
+    background-color: #fff !important;
+}
+.dagBisikletiAlan{
+    margin-top: 20px;
+}
+.mountainBike{
+    font-size: 46px;
+    font-weight: bold;
+}
+.baslikAciklama p{
+    font-size: 19px;
+    font-weight: 100;
+}
+.tgButon{
+    width: 123.41px;
+    height: 40.35px;
+    outline: none;
+    border: 1px solid #000;
+    background-color: rgba(255, 222, 173, 0);
+}
+.tgButon:hover{
+    background-color:#0000009e;
+    color: #fff;
+    transition: 0.3s;
+}
+.dagBisikletSinirla{
+    position: relative;
+}
+.dagBisikletiAciklama{
+    position: absolute;
+    bottom: 300px;
+}
+.kategori4alan{
+    box-shadow: 0px -3px 20px 0px rgb(0 0 0 / 17%);
+}
+.dagBk1{
+    width: 600px;
+}
+.dagBk2{
+    margin-top: -19px;
+}
+.kategoriAlan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+}
+.dagBaslik h3{
+    font-weight: bold;
+}
+.dagAciklama p{
+    font-size: 12.51px;
+}
+.tmnGorbtn{
+    width: 93.41px;
+    height: 30.35px;
+    border-radius: 6px;
+    color: #fff;
+    background-color: #FE4F10;
+    border: none;
+    outline: none;
+}
+.tmnGorbtn:hover{
+    background: #968b8b;
+    transition: 0.3s;
+}
+.dagFiyat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fiyat{
+    font-size: 24.88px;
+    font-weight: 100;
+}
+.inceBaslik{
+    font-weight: 100 !important;
+}
+.butonTop{
+    position: relative;
+}
+.topYukari{
+    position: absolute;
+    right: 0;
+    font-size: 40px;
+    background-color: #fe4f10;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.headerSabitle{
+    position: fixed;
+    left: 10px;
+    width: 100%;
+    background: #fff;
+    margin-top: -20px;
+    height: 100px;
+    z-index: 11;
+}
+.siyahUser{
+    padding-left:40px !important;
+    color: #000 !important;
+}
+.siyahBasket{
+    padding-left: 10px;
+    color: #000 !important;
+}
+.kategoriAramainput{
+    padding-left: 15px !important;
+    border-radius: 20px !important;
+    background-color: #fff !important;
+}
+.aramaiconKategori{
+    padding-top: 4px;
+    padding-right: 5px;
+}
+.borderSinirla{
+    position: relative;
+}
+.borderRight{
+    position: absolute;
+    left: 20px;
+}
+#danBaslayan{
+    color: grey;
+}
+.dagBkAciklama{
+    margin-bottom: 20px;
+}
+.yaziYukari{
+    margin-bottom: 20px;
+}
+.asagiKaydirma img{
+    padding-left: 30px;
+}
+.ikonAlanlari{
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,946 @@
+body{
+    margin: 0 !important;
+    padding: 0 !important;
+    background-color: #f9f8f8 !important;
+}
+h1,h2,h3,h4,h5,a,p,span,ul,li{
+    font-family: 'Helvetica Neue LT Pro', sans-serif !important;
+}
+ul li{
+    list-style-type: none;
+}
+a{
+    color: #000;
+    text-decoration: none;
+}
+a:hover{
+    color: #000;
+}
+.logo{
+    margin-left: 20px;
+    padding-top: 30px;
+    width: 196.61px;
+}
+.areaBlock{
+    position: relative;
+    margin-top: 40px;
+}
+.headerMenu{
+    display: flex;
+}
+.menu{
+    padding-left: 35px;
+    font-weight: 500;
+    font-size: 20px;
+}
+.iletisimOn{
+    position: relative;
+    z-index: 11111111111;
+}
+
+.kategori a{
+    color: #000 !important;
+}
+.menuAktif::before{
+    content: '____';
+    position: absolute;
+    top: 10px;
+    left: 17%;
+    width: 120.9px;
+    height: 37px;
+    font-weight: bold;
+    color: #fe4f10;
+}
+.acilirMenu{
+    background-color: #fff;
+}
+.areaBlock .headerMenu .kategori .acilirMenu {
+    display: none;
+}
+.areaBlock .headerMenu .kategori:hover .acilirMenu{
+    display: block;
+}
+.bakfiets{
+    margin-left: -25px;
+    height: 80px;
+}
+.elektrik{
+    height: 91px;
+}
+.kinderfiets{
+    height: 92px;
+}
+.mountainfiets{
+    height: 86px;
+}
+.racefiets{
+    height: 87px;
+}
+.transportfiets{
+    height: 90px;
+}
+.iconlar{
+    position: absolute;
+    top: 30px;
+    left: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: self-end;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+    z-index: 11;
+}
+.menu a{
+    white-space: nowrap;
+}
+.iconAralik a img{
+    width: 65px;
+}
+.yanaCek{
+    margin-top: 20px;
+}
+.iconAralik{
+    padding-left: 40px;
+    padding-top: 10px;
+}
+.userPng{
+    padding-left: 40px;
+}
+.basketPng{
+    padding-left: 10px;
+}
+input[type="text"] {
+
+    background-color : #f9f8f8; 
+  
+}
+.icon{
+    display: flex;
+    flex-direction: column;
+    width: 57.67px;
+    margin-top: 29px;
+    margin-left: 35px;
+}
+.iconText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 15px;
+    color: #000 !important;
+    white-space: nowrap;
+}
+.allesimg{
+    width: 44px !important;
+}
+.textBos{
+    font-size: 11px;
+    color: #3264ab00;
+}
+.input{
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 30px;
+}
+.searchButton{
+    border:none;
+    width: 38%;
+    outline: none;
+}
+.searchicon{
+    position: absolute;
+    font-size: 14px;
+    color: #8E8A83;
+}
+.account{
+    margin-top: 25px;
+}
+.yukariBosluk{
+    margin-top: 15px;
+}
+.sliderSinirla{
+    position: relative !important;
+}
+.sliderGorsel{
+    width: 1360px !important;
+    margin-top: 173px !important;
+    margin-left: -183px !important;
+}
+.konumAyarla{
+    position: absolute;
+    top: 40px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.ileriButon{
+    position: absolute !important;
+    right: 15% !important;
+    color: #FE4F10 !important;
+}
+.geriButon{
+    position: absolute !important;
+    left: 15% !important;
+    color: #FE4F10 !important;
+}
+.kaydirma1Text{
+    position: absolute;
+    top: -40px;
+}
+.ustuCiziliFiyat{
+    font-weight: bold;
+    color: #BEBBB3;
+    font-size: 40px;
+}
+.gercekFiyat{
+    color: #FE4F10;
+    font-weight: bold;
+    font-size: 100px;
+    margin-top: -30px;
+}
+.aciklamaGucu{
+    position: absolute;
+    top: 57px;
+    color: #FE4F10;
+    font-size: 70px;
+    z-index: -1;
+}
+#aciklamaDogadan{
+    color: #3264AB;
+}
+.sliderAltAciklama{
+    position: absolute;
+    bottom: -112px;
+}
+.altAciklama{
+    color: #000;
+    font-size: 25px;
+    font-weight: 100;
+    padding-bottom: 20px;
+}
+.altNavbarSlider{
+    display: flex;
+    list-style-type: none;
+}
+.sliderMaddeler{
+    padding-left: 20px;
+}
+.maddeAktif{
+    font-weight: bold;
+    color: #FE4F10 !important;
+}
+.maddeAktif::before{
+    content: '____';
+    position: absolute;
+    bottom: 0;
+    width: 120.9px;
+    height: 37px;
+    font-weight: bold;
+    color: #fe4f10;
+}
+.chaticon{
+    position: absolute;
+    bottom: -60px;
+    right: 40px;
+}
+.chatBoyut{
+    color: #000;
+    font-size: 45px;
+}
+.markaAciklama{
+    position: relative;
+}
+.markaBoyut{
+    width: 156px;
+    margin-left: 60px;
+}
+.baslikSize{
+    font-size: 50px;
+    text-align: center;
+}
+.parag1{
+    font-size: 28px;
+    font-weight: 100;
+    text-indent: 47px;
+}
+.paragrafAciklama{
+    margin-top: 30px;
+    font-size: 24px;
+    font-weight: 100;
+    text-indent: 75px;
+    width: 753px;
+}
+.paragrafAciklama2{
+    font-size: 24px;
+    font-weight: 100;
+    text-indent: 75px;
+    width: 753px;
+}
+.elipsBg{
+    position: absolute;
+    right: -6%;
+    z-index: -1;
+}
+.elipsPng{
+    width: 340px;
+}
+.markalar{
+    margin-left: 13%;
+}
+.markaAciklamaHizala{
+    margin-left: -34px;
+}
+
+/* Ürün kategori kısmı */
+.urunKisim{
+    margin-top: 100px;
+    margin-left: 40px;
+}
+.urunAdet{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 6px;
+    right: 4px;
+    font-size: 9px;
+    background-color: #fff;
+    width: 27.3px;
+    height: 27.3px;
+    border-radius: 30px;
+    border: 1px solid black;
+}
+.urunAdetAktif{
+    position: absolute;
+    top: 6px;
+    right: 3px;
+    width: 27.3px;
+    height: 27.3px;
+    padding-left: 2px;
+    padding-top: 6px;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 11px;
+    background-color: #fff;
+    color: #fe4f10;
+}
+.urunKategori{
+    position: relative;
+    margin-top: 30px;
+    width: 103px;
+    height: 127px;
+    background-color: #fff;
+    box-shadow: rgb(100 100 111 / 4%) 0px 7px 29px 0px;
+}
+.urunKategori:hover{
+    background-color: #fe4f10;
+    transition: 0.3s;
+}
+.urunKategori:hover .urunAdet{
+    border: none;
+}
+.urunKategori:hover .iconText{
+    color: #fff !important;
+}
+.urunKategoriAktif{
+    position: relative;
+    margin-left: -9px;
+    margin-top: 15px;
+    width: 120px;
+    height: 147px;
+    background-color: #fe4f10;
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+}
+.urunKategoriGorsel{
+    margin-left: 17px;
+    margin-top: 40px;
+}
+.urunKategoriGorselAktif{
+    margin-left: 11px;
+    margin-top: 40px;
+}
+.iconTextAktif{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 15px;
+    color: #fff !important;
+}
+.label{
+    position: absolute;
+    top: 0;
+    left: -10px;
+}
+.sepetAlanYukari{
+    margin-top: 20px;
+}
+.sepetAlanYukari2{
+    margin-top: 105px;
+}
+.sepetBg{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 321.8px;
+    max-width: 100%;
+    height: 414.5px;
+    background-color: #fff;
+    box-shadow: 0px 1px 8px 1px #746b6b0d;
+}
+.sepetGorselSinirla{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sepetGorsel{
+    width: 256.3px;
+    max-width: 100%;
+}
+.sepetGorselSinirla:hover{
+    padding: 25px;
+    border-radius: 20px;
+    background-color: #cacaca36;
+    transition: 0.3s;
+}
+.sepetAciklama{
+    margin-top: -28px;
+    font-size: 11px;
+    font-weight: bold;
+}
+.sepetAciklamaAlt{
+    margin-top: -15px;
+    font-size: 10px;
+    font-weight: 100;
+}
+.sepetAciklamaOrtala{
+    margin-top: -20px;
+    margin-left: -50px;
+    transition: 0.3s;
+    margin-right: 50px;
+}
+.sepetFiyat{
+    margin-top: 0px;
+    margin-left: 25px;
+    font-size: 34px;
+    font-weight: bold;
+}
+.sepetAdet{
+    position: absolute;
+    bottom: 10px;
+    left: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.eksi{
+    width: 40.6px;
+    height: 31.8px;
+    border-radius: 5.2px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 100;
+    background-color: #d3d3d3;
+}
+.adet{
+    margin-left: 10px;
+    font-size: 20px;
+}
+.arti{
+    width: 40.6px;
+    height: 31.8px;
+    border-radius: 5.2px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 100;
+    background-color: #d3d3d3;
+    margin-left: 10px;
+}
+.sepetButon{
+    margin-top: -15px;
+    margin-left: 25px;
+    width: 84.7px;
+    height: 42.3px;
+    border: none;
+    /* border-radius: 8px; */
+    background-color: #eb5f0c;
+}
+.sepetIcon{
+    font-size: 20px;
+    color: #fff;
+}
+/* Ürün kategori kısmı bitiş */
+
+/* canliChat baslangic */
+.canliGorsel{
+    position: relative;
+}
+.canliGorsel img{
+    position: absolute;
+}
+.ekipHazir{
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.ekipHazir img{
+    width: 930px;
+    max-width: 100%;
+}
+.buyukEkip{
+    font-size: 85px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #000;
+}
+.temastaKal{
+    margin-top: -40px;
+    font-size: 56px;
+    font-weight: 100;
+    color: #1D1D1B;
+}
+.sohbetBaslat{
+    position: relative;
+    z-index: 111111;
+    width: 232px;
+    height: 66px;
+    font-size: 30px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    background-color: #5EB132;
+    color: #fff;
+}
+.chatKutuGorsel{
+    margin-top: 20px;
+}
+.chatKutuGorsel h1{
+    font-weight: bold;
+    font-size: 80px;
+}
+.chatKutuGorsel h2{
+    font-size: 40px;
+}
+.chatKutuGorsel img {
+    width: 580px;
+}
+.paragraf{
+    margin-top: 40px;
+    width: 720px;
+    max-width: 100%;
+}
+.paragraf p{
+    font-size: 22px;
+}
+/* canliChat bitis */
+
+/* Kampanya Başlangıç */
+
+.bisikletTanitim{
+    margin-top: 10em;
+}
+.bisikletArkaPlan{
+    max-width: 1573px;
+    border-radius: 20px;
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+    background-color: #fff;
+}
+.bisikletBaslik{
+    font-size: 55px;
+    font-weight: bold;
+}
+.cortinaYazilari{
+    margin-top: 24px;
+    margin-left: 24px;
+}
+.cortinaAciklama{
+    font-size: 25px;
+    font-weight: 300;
+}
+.cortinaGorselKonum{
+    margin-left: -8em;
+    width: 722.7px;
+}
+.kampanya{
+    margin-top: 10em;
+}
+.fiyatKampanya{
+    display: flex;
+    align-items: center;
+}
+.ustCiziliKampanya{
+    font-size: 35px;
+    font-weight: bold;
+    color: #CAC9C9;
+}
+.kampanyaFiyat{
+    font-size: 69px;
+    font-weight: bold;
+    color: #000;
+}
+.kampanyaGorselSinirla{
+    position: relative;
+}
+.sonrakiKampanya{
+    position: absolute;
+    top: 50px;
+    right: -76px;
+}
+.kampanyaGorsel{
+    width: 424px;
+}
+.sliderCizgisi{
+    display: flex;
+    margin-top: 10px;
+}
+.griCizgi{
+    width: 85px;
+    height: 8px;
+    border-radius: 20px;
+    background-color: #cac9c9;
+}
+.siyahCizgi{
+    margin-left: -5px;
+    width: 350px;
+    height: 8px;
+    border-radius: 20px;
+    background-color: #40403E;
+}
+.kampanyaBilgi{
+    margin-top: -14px;
+    margin-left: 5px;
+}
+.firsatYazisi{
+    font-weight: 100;
+}
+.firsatKalanGun{
+    margin-top: -22px;
+    font-size: 11px;
+    font-weight: bold;
+}
+.kampanyaButon{
+    display: flex;
+    justify-content: center;
+    max-width: 468px;
+}
+.inceleButon{
+    width: 215px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: #c7c6c6;
+    font-size: 20px;
+    color: #353535;
+}
+/* kampanya bitiş */
+
+.iconSinirla{
+    position: relative;
+}
+.canliChaticon{
+    position: fixed;
+    bottom: 10px;
+    right: 15px;
+}
+.garantiGorsel{
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+}
+
+/* footer başlangıç */
+.footer{
+    margin-top: 3em;
+    background-color: #dcdcda;
+}
+.footerAsagi{
+    padding-top: 47px;
+    margin-left: 70px;
+}
+.logoAlani{
+    margin-left: 25px;
+}
+.footerLogo{
+    width: 266.5px;
+}
+.footerKisayol{
+    margin-top: 50px;
+}
+.footerKisayol ul li .baslik{
+    font-weight: bold;
+    font-size: 20px;
+}
+.kisayolAlt{
+    margin-top: 30px;
+}
+.kisayolAlt li{
+    padding-top: 11px;
+}
+.footerMenu{
+    font-size: 19px;
+    font-weight: 100;
+}
+.footericonlar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footericonlar i{
+    font-size: 34px;
+    color: #5eb132;
+}
+.footericonlar p{
+    margin-top: 10px;
+    margin-left: 11px;
+    font-size: 10.5px;
+    font-weight: bold;
+}
+.teknikDestek{
+    display: flex;
+}
+.calismaSaatleri{
+    margin-left: 90px;
+    display: flex;
+}
+.iadeGaranti{
+    margin-left: 90px;
+    display: flex;
+}
+.iconAltiMenuler{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.fietsenwinkelBaslik{
+    margin-left: 0px;
+}
+.musteriServisi{
+    margin-left: 2em;
+}
+.hesap{
+    margin-left: 8em;
+}
+.aboneOl{
+    margin-top: -30px;
+}
+.aboneOlAlani{
+    margin-top: -10px;
+}
+.aboneOlAciklama{
+    font-weight: bold;
+}
+.aboneolinput{
+    padding: 10px;
+    width: 354px;
+    height: 42px;
+    border: none;
+    outline: none;
+    background-color: #fff !important;
+}
+.aboneButonu{
+    width: 108px;
+    height: 42px;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    color: #fff;
+    background-color: #e75f21;
+}
+.aboneolAltiMenu{
+    display: flex;
+    margin-top: 20px;
+    margin-left: -35px;
+}
+.telicon{
+    max-height: 40px;
+    float: left;
+}
+.telicon i{
+    font-size: 32px;
+}
+.saatSaga{
+    padding-left: 40px;
+}
+.saat{
+    margin-left: 2px;
+    font-size: 12px;
+    font-weight: 100;
+}
+.mail{
+    font-size: 11px;
+    font-weight: 100;
+}
+.iconFonts{
+    font-size: 16px;
+}
+.kartlar{
+    padding: 20px;
+    margin-top: 80px;
+    text-align: center;
+}
+.ortala{
+    text-align: center;
+}
+/* footer bitiş */
+.mobilMenu{
+    display: none;
+}
+.mobilUrun{
+    display: none;
+}
+.mobilAsama{
+    display: none;
+}
+.mobilSecenekler{
+    display: none !important;
+}
+.asamaGizle{
+    display: none !important;
+}
+.headerMobil{
+    display: none;
+}
+.mobilTanitim{
+    display: none;
+}
+.mobilKartlar{
+    display: none;
+}
+.sptPop:hover .sepetPopup{
+    display: block !important;
+}
+.sepetPopup{
+    display: none;
+    width: 245px;
+    margin-left: -150px;
+    background: #fff;
+    height: 290px;
+    -webkit-box-shadow: 4px 5px 17px 2px rgba(0,0,0,0.36); 
+    box-shadow: 4px 5px 17px 2px rgba(0,0,0,0.36);
+}
+.sepetBaslik{
+    text-align: center;
+    padding-top: 15px;
+}
+.sepet_gorsel img{
+    width: 100px;
+}
+.arti_eksi{
+    background-color: #E2E2E2;
+}
+.urun1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.adet_bilgisi{
+    display: flex;
+}
+.stok_bilgisi{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+.teslim35Gün{
+    width: 170px;
+    height: 30px;
+    background-color: #5eb132;
+    color: #fff;
+    text-align: center;
+    padding-top: 4px;
+    font-weight: bold;
+}
+.fiyat_bilgisi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.eski_Fiyat{
+    font-weight: bold;
+    font-size: 22px;
+    color: #a4a4a4;
+}
+.seceneklerSepet{
+    border: none;
+}
+.seceneklerSepet{
+    font-size: 20px;
+}
+select{
+    color: #FE4F10 !important;
+}
+.hepsi_gor{
+    width: 200px;
+    height: 50px;
+    color: #fff;
+    background-color: #eb5f0c;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+}
+.detayButonu button{
+    border: none;
+    width: 300px;
+    max-width: 100%;
+    height: 40px;
+    color: #fff;
+    background-color: #eb5f0c;
+    font-size: 20px;
+    font-weight: bold;
+}
+.detayButonu{
+    margin-left: 15em;
+}
+.iletisimButonlari button{
+    border: none;
+    width: 150px;
+    max-width: 100%;
+    height: 40px;
+    color: #fff;
+    background-color: #eb5f0c;
+    font-size: 16px;
+    font-weight: bold;
+}
+.iletisimArkplan{
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.iletisimAciklama{
+    margin-top: 20px;
+}
+.iletisimAciklama p{
+    width: 300px;
+    text-align: center;
+}
+.iletisimButonlari{
+    margin-top: 20px;
+}
+.iletisimGorseli img{
+    width: 90px;
+}
+.anasayfaIletisim{
+    margin-top: 100px;
+}
+#mesajBalon{
+    width: 75px !important;
+}
+#mektup{
+    width: 130px !important;
+}
+.gizliKategoriGorsel{
+    display: none   ;
+}
+
+
